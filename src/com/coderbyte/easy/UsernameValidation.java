@@ -33,8 +33,9 @@ public class UsernameValidation {
     }
 
     private static boolean isLetterStarting(String str){
-        Matcher matcher = Pattern.compile("[a-zA-Z]").matcher(str.substring(0, 1));
-        return matcher.matches()? true:false;
+        return str.substring(0,1).matches("[a-zA-Z]");
+        //Matcher matcher = Pattern.compile("[a-zA-Z]").matcher(str.substring(0, 1));
+        //return matcher.matches()? true:false;
     }
 
     private static boolean isLastCharUnderscore(String str){
