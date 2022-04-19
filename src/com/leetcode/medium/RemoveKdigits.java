@@ -1,8 +1,12 @@
-package com.leetcode;
+package com.leetcode.medium;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+//
+//Given string num representing a non-negative integer num, and an integer k,
+// return the smallest possible integer after removing k digits from num.
+
 
 public class RemoveKdigits {
 
