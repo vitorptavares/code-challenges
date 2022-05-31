@@ -12,8 +12,10 @@ Tree: Level Order Traversal
 * https://www.hackerrank.com/challenges/tree-level-order-traversal/problem
 *
 
- This exercice cannot be resolved using recursion. recursion will act as a Stack and we should use the concept of Queue to solve this problem
- The idea is to run all lines before jump to next level of nodes. If we wanted to run all left or right nodes first, then we should ise
+ This exercice cannot be resolved using recursion. recursion will act as a Stack and we should use the concept
+ of Queue to solve this problem
+ The idea is to run all lines before jump to next level of nodes. If we wanted to run all left or right nodes first,
+ then we should ise
  recursion or Stack (similar to heightOfBinaryTree)
  */
 

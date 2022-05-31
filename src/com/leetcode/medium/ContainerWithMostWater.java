@@ -2,6 +2,8 @@ package com.leetcode.medium;
 
 public class ContainerWithMostWater {
 
+    //https://leetcode.com/problems/container-with-most-water/
+    
     public int maxArea(int[] height) {
         int maxArea = 0;
         int left = 0;
@@ -21,5 +23,10 @@ public class ContainerWithMostWater {
         }
         return maxArea;
 
+    }
+
+    public static void main(String[] args) {
+        ContainerWithMostWater c = new ContainerWithMostWater();
+        System.out.printf(String.valueOf(c.maxArea(new int[]{1,8,6,2,5,4,8,3,7})));
     }
 }

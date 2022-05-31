@@ -43,6 +43,7 @@ public class FindtheRunningMedian {
 
     }
 
+    //PriorityQueue will be used to imlement our own comparator
     private static double getMedian(PriorityQueue<Integer> lowersNumbers, PriorityQueue<Integer> highersNumbers) {
         PriorityQueue<Integer> biggerHeap = lowersNumbers.size() > highersNumbers.size() ? lowersNumbers : highersNumbers;
         PriorityQueue<Integer> smallerHeap = lowersNumbers.size() > highersNumbers.size() ? highersNumbers : lowersNumbers;
