@@ -1,4 +1,4 @@
-VFGpackage com.codility;
+package com.codility;
 
 
 import java.util.Arrays;
